@@ -1,0 +1,147 @@
+/*por Oscar Marino*/
+body{
+    margin:0;
+    padding: 0;
+    /*background-color: black;*/
+
+    background-image: url(img/1.jpeg), url(../img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sofadi One', cursive;
+    /*background-image: url(/img/rigoberto.png);
+    background-size: cover;
+     background-repeat: no-repeat;*/
+}
+/*******************************************/
+/* Contenedor padres
+/*******************************************/
+/*
+.flex-container{
+    width: 600px;/*Ancho*/
+/*    height: 350;
+    background: white;
+    border: 1px solid black;
+}
+*/
+.flex-container{
+    display: flex;
+    justify-content: center;/*horizontal*/
+    align-items: center; /*Vertical*/
+    height: 100vh;
+    width: 100%;
+    color:white;
+}
+
+.flex-container>.instagram{
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 520px;
+}
+
+/*******************************************/
+/* Titulo y logo
+/*******************************************/
+
+.flex-titulo{
+    display: flex;
+    justify-content: space-between;/*Ancho horizontal*/
+    /*border: 1px solid blue;*/
+    width: 100%;
+    height: 60px;
+
+}
+.title{
+    display: flex;
+    justify-content: space-between; /*vertical*/
+    margin-left: 10px;
+    /*border: 1px solid black;*/
+    font-size: 12px;
+}
+.logo{
+    display: flex;
+    align-items: center; /*vertical*/
+    margin-right: 20px;
+    margin-top: 5px;
+    /*border: 1px solid black;*/
+}
+/*******************************************/
+/* texto e input
+/*******************************************/
+
+
+.flex-contenido{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    /*border: 1px solid red;*/
+}
+.flex-contenido>img{
+    justify-content: space-between;/*Ancho horizontal*/
+    width: 100%;
+    height: 300px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-between;/*Ancho horizontal*/
+    width: 100%;
+    height: 100%;
+}
+
+/*******************************************/
+/* boton
+/*******************************************/
+
+.btn{
+    display:flex;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 32px;
+    font-size: 9px;
+    font-family: 'Sofadi One', cursive;
+    /*border: 1px solid brown;
+    */
+    }
+
+.stick{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    /*border: 1px solid yellow;
+    */
+}
+
+.izquierda{
+    display:flex;
+    margin-left: 10px;
+    width: 25%;
+    height: 30px;
+    flex-direction: row;
+    justify-content:space-around;
+    /*border: 1px solid red;
+    */
+}
+.derecha{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 50%;
+    height: 30px;
+    justify-content: flex-end;
+    /*border: 1px solid blue;
+    */
+}
+.texto{
+    display:flex;
+    margin-top: 0;
+    margin-left: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    font-size: 12px;
+}
